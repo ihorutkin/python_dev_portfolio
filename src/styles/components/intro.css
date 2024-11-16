@@ -1,0 +1,30 @@
+.intro_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.intro_block{
+    text-align: center;
+}
+
+.intro_title{
+    font-size: 72px;
+    line-height: 0;
+}
+
+.intro_content{
+    display: flex;
+    margin-bottom: 5rem;
+}
+
+.intro_content > p:first-child{
+    border-right: 1px #fff solid;
+}
+
+.intro_content > p{
+    font-size: 20px;
+    padding: 0 2rem;
+}

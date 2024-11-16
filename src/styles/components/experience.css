@@ -1,0 +1,74 @@
+.experience_container{
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.container_title_block{
+    display: flex;
+    align-items: center;
+    /* border-right: 1px #00FFCB solid; */
+}
+
+/* .container_title_line{
+    height: 1px;
+    width: 100%;
+    background: #00FFCB;
+    margin-left: 1rem;
+} */
+
+.container_title{
+    font-size: 50px;
+}
+
+.project_block{
+    display: flex;
+    justify-content: space-between;
+    height: 350px;
+    margin: 2rem 0;
+}
+
+.python_projects_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-basis: 45%;
+}
+
+.python_projects_title_block{
+    padding: 0 1rem;
+    border-left: 2px #00FFCB solid;
+}
+
+.python_projects_title{
+    line-height: 0;
+}
+
+.go_to_project_btn_block{
+    margin-top: 2rem;
+}
+
+.python_projects_block{
+    background-image: url("../../media/backend_projects.jpg");
+    background-size: cover;
+    flex-basis: 45%;
+}
+
+.frontend_projects_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    flex-basis: 45%;
+}
+
+.frontend_projects_title_block{
+    padding: 0 1rem;
+    border-right: 2px #FF7619 solid;
+}
+
+.frontend_projects_block{
+    background-image: url("../../media/frontend_projects.jpg");
+    background-size: cover;
+    flex-basis: 45%;
+}

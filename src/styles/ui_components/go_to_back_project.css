@@ -1,0 +1,11 @@
+.python-projects-btn{
+    border: 1px rgba(0,255,203,.64) solid;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: rgba(0,255,203,.64);
+    text-decoration: none;
+}
+
+.python-projects-btn:hover{
+    box-shadow: 0 0 24px rgba(79,209,197,.64);
+}
