@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a1f2ff4e-73c3-4576-aabc-f737d2ba97fc" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/react_components/components/experience.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react_components/components/experience.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react_components/components/intro.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react_components/components/intro.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react_components/components/skills.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react_components/components/skills.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react_components/layout/header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/react_components/layout/header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react_components/ui_components/go_to_back_project.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react_components/ui_components/go_to_front_project.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react_components/ui_components/load_cv_btn.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react_components/ui_components/see_more_btn.jsx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/components/skills.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/styles/components/skills.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/ui_components/go_to_back_project.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/ui_components/go_to_front_project.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/ui_components/load_cv_btn.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/styles/ui_components/see_more_btn.css" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2oxIclOa3oYn7VvciF60EQRheV3" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "node.js.detected.package.eslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.347" />
+        <option value="bundled-python-sdk-c2d6afa66fbe-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.347" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a1f2ff4e-73c3-4576-aabc-f737d2ba97fc" name="Changes" comment="" />
+      <created>1731804888479</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731804888479</updated>
+      <workItem from="1731804891884" duration="55000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

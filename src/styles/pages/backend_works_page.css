@@ -1,0 +1,23 @@
+.backend_works_container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10rem;
+    max-width: 1500px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 4rem;
+}
+
+.backend_works_block{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 1rem;
+    margin: 1rem 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.projects_title{
+    font-size: 40px;
+}

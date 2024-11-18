@@ -1,7 +1,8 @@
 import React from "react";
 import { useEffect } from "react";
+import CV from "../../../CV/Ihor-Utkin-Resume.pdf"
 
-import "../../styles/ui_components/load_cv_btn.css"
+import "../../../styles/ui_components/buttons/load_cv_btn.css"
 
 export default function LoadCvBtn(){
     useEffect(() => {
@@ -35,7 +36,7 @@ export default function LoadCvBtn(){
     
     return (
         <div class="load_cv_container">
-            <button id="load_cv_button"></button>
+            <a href={CV} id="load_cv_button" download></a>
         </div>
     )
 }

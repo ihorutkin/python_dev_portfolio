@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LoadCvBtn from "../ui_components/load_cv_btn";
+import LoadCvBtn from "../ui_components/buttons/load_cv_btn";
 
 import "../../styles/layout/header.css"
 

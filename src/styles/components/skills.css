@@ -3,3 +3,55 @@
     margin-right: auto;
     margin-left: auto;
 }
+
+.skills_block_list{
+    width: 800px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.skills_block{
+    display: flex;
+    /* justify-content: space-around; */
+}
+
+.python_skills{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-items: center;
+    border-right: 1px white solid;
+}
+
+.frontend_skills{
+    flex-direction: column;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+}
+
+.skill_title_block{
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    border-bottom: 1px white solid;
+}
+
+.skills_title{
+    padding: 0 2rem;
+}
+
+.skill_logo_python{
+    width: 30px;
+    height: 30px;
+    background-image: url("../../media/icons/python2.png");
+    background-size: cover;
+}
+
+.skill_logo_frontend{
+    width: 30px;
+    height: 30px;
+    background-image: url("../../media/icons/react2.png");
+    background-size: cover;
+}

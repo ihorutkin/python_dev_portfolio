@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom"
 
-import "../../styles/ui_components/see_more_btn.css"
+import "../../../styles/ui_components/buttons/see_more_btn.css"
 
 export default function SeeMoreBtn(){
     const scrollToSection = (sectionId) => {

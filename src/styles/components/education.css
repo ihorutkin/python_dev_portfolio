@@ -1,0 +1,56 @@
+.education_container{
+    display: flex;
+    flex-direction: column;
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+}
+
+.education_block{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.education_item{
+    display: flex;
+}
+
+.education_content{
+    flex-basis: 70%;
+    padding: 2rem 3rem 2rem 0;
+    border-right: 1px #fff solid;
+}
+
+.uniwersity_name_block{
+    display: flex;
+}
+
+.university_name{
+    flex-basis: 70%;
+}
+
+.period_of_study{
+    text-align: end;
+    flex-basis: 30%;
+}
+
+.education_img{
+    flex-basis: 30%;
+}
+
+.poland{
+    background-image: url("../../media/education/modrzewkiego.jfif");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.ukraine{
+    background-image: url("../../media/education/nau.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}

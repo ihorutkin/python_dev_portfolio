@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom"
 
-import "../../styles/ui_components/go_to_back_project.css"
+import "../../../styles/ui_components/buttons/go_to_back_project.css"
 
 export default function GoToBackendProjectBtn({ customClass }){
     return (

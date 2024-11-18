@@ -49,7 +49,7 @@
 }
 
 .python_projects_block{
-    background-image: url("../../media/backend_projects.jpg");
+    background-image: url("../../media/projects/backend/backend_projects.jpg");
     background-size: cover;
     flex-basis: 45%;
 }

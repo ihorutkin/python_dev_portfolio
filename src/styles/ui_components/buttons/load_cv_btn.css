@@ -1,0 +1,78 @@
+.load_cv_container {
+  position: absolute;
+  top: 2rem;
+  right: 4rem;
+  width: 130px;
+  height: 40px;
+  text-align: center;
+}
+
+.load_cv_container > a {
+  display: inline-block;
+  height: 40px;
+  width: 130px;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 40px;
+  background: transparent;
+  border: 2px solid rgba(0, 255, 203, 0.64);
+  color: rgba(0, 255, 203, 0.64);
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+  position: relative;
+}
+
+.load_cv_container > a:hover {
+  color: white;
+  background: rgba(0, 255, 203, 0.64);
+}
+
+.load_cv_container > a:active {
+  letter-spacing: 2px;
+}
+
+.load_cv_container > a::after {
+  content: "Load CV";
+}
+
+.load_cv_container > a.onclic {
+  width: 40px;
+  border-color: #bbbbbb;
+  border-width: 3px;
+  font-size: 0;
+  border-left-color: rgba(0, 255, 203, 0.64);
+  animation: rotating 1s 0.25s linear infinite;
+}
+
+.load_cv_container > a.onclic::after {
+  content: "";
+}
+
+.load_cv_container > a.onclic:hover {
+  color: rgba(0, 255, 203, 0.64);
+  background: white;
+}
+
+.load_cv_container > a.validate {
+  font-size: 13px;
+  color: white;
+  background: rgba(0, 255, 203, 0.64);
+}
+
+.load_cv_container > a.validate::after {
+  font-family: 'FontAwesome';
+  content: "✓";
+}
+
+@keyframes rotating {
+  from {
+      transform: rotate(0deg);
+  }
+  to {
+      transform: rotate(360deg);
+  }
+}

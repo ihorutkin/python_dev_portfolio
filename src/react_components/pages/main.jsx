@@ -1,17 +1,21 @@
 import React from "react";
 import Layout from "../layout/layout";
 import Intro from "../components/intro";
-
-import "../../styles/components/intro.css"
 import Experience from "../components/experience";
 import Skills from "../components/skills";
+import AOS from "aos"
+
+import "../../styles/components/intro.css"
+import Education from "../components/education";
 
 export default function MainPage(){
+    AOS.init()
     return (
         <Layout>
             <Intro />
             <Experience />
             <Skills />
+            <Education />
         </Layout>
     )
 }

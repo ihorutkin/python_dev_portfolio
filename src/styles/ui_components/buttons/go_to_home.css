@@ -1,0 +1,19 @@
+.go_to_home_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    text-decoration: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 1px rgba(0,255,203,.64) solid;
+    z-index: 1;
+    color: rgba(0,255,203,.64);
+}
+
+.go_to_home_btn:hover{
+    box-shadow: 0 0 60px rgba(0,255,203,.64);
+}
