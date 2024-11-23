@@ -11,7 +11,7 @@ import BackendWorksPage from './react_components/pages/backend_works_page';
 function App() {
   return (
     <Routes>
-      <Route 
+      <Route
         path="/"
         element={<MainPage />}
       />
