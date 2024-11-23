@@ -32,7 +32,7 @@ export default function Experience(){
                     </div>
                     <div className="python_projects_block" data-aos="fade-left"></div>
                 </div>
-                <div className="project_block">
+                <div className="project_block frontend">
                     <div className="frontend_projects_block" data-aos="fade-right"></div>
                     <div className="frontend_projects_content">
                         <div className="frontend_projects_title_block">

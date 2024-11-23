@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../layout/layout";
+import LayoutBackend from "../layout/layout_backend";
 import ProjectItem from "../components/project_item";
 import { python_projects } from "../../models/python_works";
 
@@ -9,10 +9,10 @@ import GoToHome from "../ui_components/buttons/go_to_home";
 
 export default function BackendWorksPage(){
     return (
-        <Layout>
+        <LayoutBackend>
             <GoToHome />
             <section className="backend_works_container">
-                <h2 className="projects_title">PYTHON PROJECTS</h2>
+                <h2 className="projects_title" id="backend">PYTHON PROJECTS</h2>
                 <div className="backend_works_block">
                 {
                     python_projects.map((elem, index) => {
@@ -31,6 +31,6 @@ export default function BackendWorksPage(){
                 }
                 </div>
             </section>
-        </Layout>
+        </LayoutBackend>
     )
 }

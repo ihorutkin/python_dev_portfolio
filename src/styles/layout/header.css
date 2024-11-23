@@ -14,7 +14,7 @@
     align-items: center;
     margin-left: auto;
     margin-right: auto;
-    width: 800px;
+    max-width: 800px;
     z-index: 0;
     gap: 1rem;
     padding: 1rem;
@@ -49,4 +49,81 @@
     color: #313133;
     font-weight: bold;
     transition: all .3s linear;
+}
+
+.fa-bars{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 2rem;
+    color: #e5e5e5;
+    font-size: 24px;
+    padding-right: 2rem;
+    z-index: 10;
+    cursor: pointer;
+}
+
+.modal_menu{
+    position: fixed !important;
+    display: flex;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    z-index: 10;
+}
+
+.modal_menu::before{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: '';
+    background: linear-gradient(#070b0e, #000000, #1b242b);
+    opacity: .5;
+}
+
+.modal_list{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    z-index: 10;
+    padding: 5rem 10rem;
+    gap: 2rem;
+    border-radius: 20px;
+    /* z-index: 1; */
+}
+
+.modal_list::before{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: .5;
+    z-index: -1;
+    border-radius: 20px;
+}
+
+.modal_list > .nav_link{
+    font-size: 30px;
+}
+
+.no-scroll {
+    overflow: hidden;
+}
+
+@media (max-width: 1250px){
+    .navigation{
+        display: none;
+    }
+    .fa-bars{
+        display: block;
+    }
 }

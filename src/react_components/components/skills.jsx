@@ -24,7 +24,7 @@ export default function Skills(){
                 <div className="container_title_line"></div>
             </article>
             <article className="skills_block_list">
-                <article className="skills_block">
+                {/* <article className="skills_block"> */}
                     <div className="python_skills">
                         <div className="skill_title_block">
                             <h2 className="skills_title" data-aos="fade-right">Python</h2>
@@ -34,8 +34,8 @@ export default function Skills(){
                             {
                                 python_skills.map((elem, index) => {
                                     return <Skill
-                                        key={index} 
-                                        name={elem} 
+                                        key={index}
+                                        name={elem}
                                         style={{
                                             backgroundImage: `url(${python_icons[index]})`,
                                             backgroundSize: "cover",
@@ -65,7 +65,7 @@ export default function Skills(){
                             }
                         </ul>
                     </div>
-                </article>
+                {/* </article> */}
             </article>
         </section>
     )

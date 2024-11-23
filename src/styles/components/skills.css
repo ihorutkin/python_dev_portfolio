@@ -1,13 +1,16 @@
 .skills_container{
-    width: 1200px;
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
+    padding: 0 2rem;
 }
 
 .skills_block_list{
-    width: 800px;
+    max-width: 800px;
     margin-right: auto;
     margin-left: auto;
+    display: flex;
+    flex-wrap: wrap;
 }
 
 .skills_block{
@@ -18,7 +21,9 @@
 .python_skills{
     display: flex;
     flex-direction: column;
-    flex: 1 1 auto;
+    min-width: 300px;
+    flex-basis: 48%;
+    flex: 1 1 48%;
     align-items: center;
     border-right: 1px white solid;
 }
@@ -26,7 +31,9 @@
 .frontend_skills{
     flex-direction: column;
     display: flex;
-    flex: 1 1 auto;
+    min-width: 300px;
+    flex-basis: 48%;
+    flex: 1 1 48%;
     align-items: center;
 }
 

@@ -5,7 +5,10 @@ import { Link } from "react-router-dom";
 
 export default function ProjectItem(props){
     return (
-        <Link to={props.demo_link} className={`project_item_container ${props.style}`}>
+        <Link 
+            to={props.demo_link}
+            className={`project_item_container ${props.style}`}
+        >
             <div className="project_item_img_block">
                 <div
                     className="project_item_img"
@@ -17,13 +20,14 @@ export default function ProjectItem(props){
             </div>
             <div className="project_item_content">
                 <h2>{ props.name }</h2>
-                <Link 
-                    to={`${props.github_link}`}
+                <a 
+                    href={props.github_link}
+                    rel="noopener noreferrer"
                     className="animated-button"
                 >
                     <span className="button-text">{ props.project_type }</span>
                     <span className="button-arrow">→</span>
-                </Link>
+                </a>
             </div>
         </Link>
     )

@@ -11,11 +11,13 @@ import Education from "../components/education";
 export default function MainPage(){
     AOS.init()
     return (
-        <Layout>
-            <Intro />
-            <Experience />
-            <Skills />
-            <Education />
-        </Layout>
+        <div style={{overflow: "hidden"}}>
+            <Layout>
+                <Intro />
+                <Experience />
+                <Skills />
+                <Education />
+            </Layout>
+        </div>
     )
 }

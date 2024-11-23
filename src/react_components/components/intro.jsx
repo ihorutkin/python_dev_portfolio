@@ -13,14 +13,14 @@ export default function Intro(){
                     data-aos="zoom-in"
                     data-aos-duration="800"
                 >IHOR UTKIN</h1>
-                <p 
+                <div
                     className="intro_content" 
                     data-aos="zoom-in"
                     data-aos-duration="1000"
                 >
                     <p>Python Developer</p>
                     <p>Frontend Developer</p>
-                </p>
+                </div>
                 <SeeMoreBtn />
             </article>
         </div>

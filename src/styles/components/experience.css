@@ -1,21 +1,14 @@
 .experience_container{
-    width: 1200px;
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
+    padding: 0 2rem;
 }
 
 .container_title_block{
     display: flex;
     align-items: center;
-    /* border-right: 1px #00FFCB solid; */
 }
-
-/* .container_title_line{
-    height: 1px;
-    width: 100%;
-    background: #00FFCB;
-    margin-left: 1rem;
-} */
 
 .container_title{
     font-size: 50px;
@@ -23,9 +16,15 @@
 
 .project_block{
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    height: 350px;
+    min-height: 350px;
     margin: 2rem 0;
+    gap: 1rem;
+}
+
+.frontend{
+
 }
 
 .python_projects_content{
@@ -33,6 +32,8 @@
     flex-direction: column;
     justify-content: center;
     flex-basis: 45%;
+    flex: 1 1 45%;
+    min-width: 300px;
 }
 
 .python_projects_title_block{
@@ -45,13 +46,16 @@
 }
 
 .go_to_project_btn_block{
-    margin-top: 2rem;
+    margin: 2rem 0;
 }
 
 .python_projects_block{
     background-image: url("../../media/projects/backend/backend_projects.jpg");
     background-size: cover;
     flex-basis: 45%;
+    flex: 1 1 45%;
+    min-width: 300px;
+    min-height: 350px;
 }
 
 .frontend_projects_content{
@@ -60,6 +64,8 @@
     justify-content: center;
     align-items: end;
     flex-basis: 45%;
+    flex: 1 1 45%;
+    min-width: 300px;
 }
 
 .frontend_projects_title_block{
@@ -70,5 +76,27 @@
 .frontend_projects_block{
     background-image: url("../../media/frontend_projects.jpg");
     background-size: cover;
+    background-position: center;
     flex-basis: 45%;
+    flex: 1 1 45%;
+    min-width: 300px;
+    min-height: 350px;
+}
+
+@media (max-width: 880px){
+    .frontend{
+        flex-direction: column-reverse;
+    }
+}
+
+@media (max-width: 500px){
+    p{
+        font-size: 14px;
+    }
+    .container_title{
+        font-size: 32px;
+    }
+    .python_projects_title{
+        font-size: 20px;
+    }
 }

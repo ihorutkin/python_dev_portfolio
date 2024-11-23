@@ -1,5 +1,5 @@
 import React from "react";
-import Layout from "../layout/layout";
+import LayoutFrontend from "../layout/layout_frontend";
 import ProjectItem from "../components/project_item";
 import { layout_projects, game_projects, app_projects } from "../../models/frontend_works";
 
@@ -8,10 +8,10 @@ import GoToHome from "../ui_components/buttons/go_to_home";
 
 export default function FrontendWorksPage(){
     return (
-        <Layout>
+        <LayoutFrontend>
             <GoToHome />
             <section className="frontend_works_container">
-                <h2 className="projects_title">LAYOUTS</h2>
+                <h2 className="projects_title" id="layout">LAYOUTS</h2>
                 <div className="frontend_works_block">
                 {
                     layout_projects.map((elem, index) => {
@@ -29,7 +29,7 @@ export default function FrontendWorksPage(){
                     })
                 }
                 </div>
-                <h2 className="projects_title">GAMES</h2>
+                <h2 className="projects_title" id="game">GAMES</h2>
                 <div className="frontend_works_block">
                 {
                     game_projects.map((elem, index) => {
@@ -47,7 +47,7 @@ export default function FrontendWorksPage(){
                     })
                 }
                 </div>
-                <h2 className="projects_title">APPS</h2>
+                <h2 className="projects_title" id="app">APPS</h2>
                 <div className="frontend_works_block">
                 {
                     app_projects.map((elem, index) => {
@@ -66,6 +66,6 @@ export default function FrontendWorksPage(){
                 }
                 </div>
             </section>
-        </Layout>
+        </LayoutFrontend>
     )
 }

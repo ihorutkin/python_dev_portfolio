@@ -1,11 +1,12 @@
 .education_container{
     display: flex;
     flex-direction: column;
-    width: 1200px;
+    max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
     margin-top: 4rem;
     margin-bottom: 4rem;
+    padding: 0 2rem;
 }
 
 .education_block{
@@ -16,12 +17,15 @@
 
 .education_item{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .education_content{
-    flex-basis: 70%;
+    flex-basis: 65%;
     padding: 2rem 3rem 2rem 0;
     border-right: 1px #fff solid;
+    /* min-width: 350px; */
+    flex: 1 1 65%;
 }
 
 .uniwersity_name_block{
@@ -39,6 +43,8 @@
 
 .education_img{
     flex-basis: 30%;
+    flex: 1 1 30%;
+    min-height: 200px;
 }
 
 .poland{
@@ -53,4 +59,11 @@
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+@media (max-width: 1040px){
+    .education_content{
+        padding: 2rem 1.5rem 2rem 1.5rem;
+        border-right: none;
+    }
 }

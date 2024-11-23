@@ -4,7 +4,7 @@ import "../../styles/components/education.css"
 
 export default function Education(){
     return(
-        <section className="education_container">
+        <section className="education_container" id="education">
             <h2 className="container_title" data-aos="fade-right">EDUCATION</h2>
             <article className="education_block">
                 <div className="education_item">

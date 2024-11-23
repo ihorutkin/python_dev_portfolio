@@ -4,7 +4,7 @@ import LoadCvBtn from "../ui_components/buttons/load_cv_btn";
 
 import "../../styles/layout/header.css"
 
-export default function Header(){
+export default function HeaderBackend(){
     const [modal, setModal] = useState(false)
 
     const scrollToSection = (sectionId) => {
@@ -22,37 +22,21 @@ export default function Header(){
     }
 
     return (
-        <div className="navigation_container projects">
+        <div className="navigation_container">
             {modal && (
                 <article className="modal_menu">
                     <nav className="modal_list">
-                    <Link 
-                        to="#experience" 
-                        className="nav_link" 
-                        onClick={(event) => {
-                            scrollToSection('experience')
-                            closeModal(event)
-                        }}
-                    >experience</Link>
-                    <Link 
-                        to="#skills" 
-                        className="nav_link" 
-                        onClick={(event) => {
-                            scrollToSection('skills')
-                            closeModal(event)
-                        }}
-                    >skills</Link>
-                    <Link 
-                        to="#education" 
-                        className="nav_link" 
+                    <Link
+                        to="#backend"
+                        className="nav_link"
                         onClick={(event) => {
                             scrollToSection('education')
                             closeModal(event)
                         }}
-                    >education</Link>
+                    >backend projects</Link>
                     <Link 
-                        to="#contact" 
-                        className="nav_link" 
+                        to="#app"
+                        className="nav_link"
                         onClick={(event) => {
                             scrollToSection('footer')
                             closeModal(event)
@@ -62,9 +46,7 @@ export default function Header(){
                 </article>
             )}
             <nav className="navigation">
-                <Link to="#experience" className="nav_link" onClick={() => scrollToSection('experience')}>experience</Link>
-                <Link to="#skills" className="nav_link" onClick={() => scrollToSection('skills')}>skills</Link>
-                <Link to="#education" className="nav_link" onClick={() => scrollToSection('education')}>education</Link>
+                <Link to="#backend" className="nav_link" onClick={() => scrollToSection('backend')}>backend projects</Link>
                 <Link to="#contact" className="nav_link" onClick={() => scrollToSection('footer')}>contact</Link>
             </nav>
             <i className="fa-solid fa-bars" onClick={(event) => {

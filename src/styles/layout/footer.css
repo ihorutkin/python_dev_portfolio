@@ -67,6 +67,10 @@
     gap: 1.5rem;
 }
 
+.footer_social_media > a > i{
+    color: #fff;
+}
+
 @media(max-width: 1024px) {
     .footer_nav{
         width: 100%;

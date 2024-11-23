@@ -3,7 +3,7 @@ import "../../styles/layout/footer.css"
 import { Link } from "react-router-dom";
 
 
-export default function Footer(){
+export default function FooterFrontend(){
     const scrollToSection = (sectionId) => {
         const section = document.getElementById(sectionId);
         if (section) {
@@ -25,9 +25,9 @@ export default function Footer(){
                         <p>email: <a href="mailto: igorutkin2002@gmail.com">igorutkin2002@gmail.com</a></p>
                     </div>
                     <nav className="footer_nav">
-                        <Link to="#experience" className="nav_link" onClick={() => scrollToSection('experience')}>experience</Link>
-                        <Link to="#skills" className="nav_link" onClick={() => scrollToSection('skills')}>skills</Link>
-                        <Link to="#education" className="nav_link" onClick={() => scrollToSection('education')}>education</Link>
+                        <Link to="#layout" className="nav_link" onClick={() => scrollToSection('layout')}>layouts</Link>
+                        <Link to="#game" className="nav_link" onClick={() => scrollToSection('game')}>games</Link>
+                        <Link to="#app" className="nav_link" onClick={() => scrollToSection('app')}>apps</Link>
                         <Link to="#contact" className="nav_link" onClick={() => scrollToSection('footer')}>contact</Link>
                     </nav>
                 </article>
