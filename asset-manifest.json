@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/python_dev_portfolio/static/css/main.2f8e4686.css",
-    "main.js": "/python_dev_portfolio/static/js/main.28e5ba51.js",
+    "main.js": "/python_dev_portfolio/static/js/main.c218c56b.js",
     "static/media/Burger.png": "/python_dev_portfolio/static/media/Burger.f82ca97be257b09e4add.png",
     "static/media/nau.png": "/python_dev_portfolio/static/media/nau.b32888b1c8baa72f9324.png",
     "static/media/Travel.jpg": "/python_dev_portfolio/static/media/Travel.9b1df8ce64971a1cb098.jpg",
@@ -38,10 +38,10 @@
     "static/media/modrzewkiego.jfif": "/python_dev_portfolio/static/media/modrzewkiego.94a74e12efc39e723cb2.jfif",
     "index.html": "/python_dev_portfolio/index.html",
     "main.2f8e4686.css.map": "/python_dev_portfolio/static/css/main.2f8e4686.css.map",
-    "main.28e5ba51.js.map": "/python_dev_portfolio/static/js/main.28e5ba51.js.map"
+    "main.c218c56b.js.map": "/python_dev_portfolio/static/js/main.c218c56b.js.map"
   },
   "entrypoints": [
     "static/css/main.2f8e4686.css",
-    "static/js/main.28e5ba51.js"
+    "static/js/main.c218c56b.js"
   ]
 }
