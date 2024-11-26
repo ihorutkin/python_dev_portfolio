@@ -1,12 +1,12 @@
 {
   "files": {
     "main.css": "/python_dev_portfolio/static/css/main.2f8e4686.css",
-    "main.js": "/python_dev_portfolio/static/js/main.c218c56b.js",
+    "main.js": "/python_dev_portfolio/static/js/main.5093a876.js",
     "static/media/Burger.png": "/python_dev_portfolio/static/media/Burger.f82ca97be257b09e4add.png",
     "static/media/nau.png": "/python_dev_portfolio/static/media/nau.b32888b1c8baa72f9324.png",
     "static/media/Travel.jpg": "/python_dev_portfolio/static/media/Travel.9b1df8ce64971a1cb098.jpg",
     "static/media/intro_cube.png": "/python_dev_portfolio/static/media/intro_cube.2b2a0a493bf92c5d44fd.png",
-    "static/media/Ihor-Utkin-Resume.pdf": "/python_dev_portfolio/static/media/Ihor-Utkin-Resume.c12fcbc24dd09a077e81.pdf",
+    "static/media/Ihor-Utkin-CV.pdf": "/python_dev_portfolio/static/media/Ihor-Utkin-CV.c3c47f4c6ec9036e8ea1.pdf",
     "static/media/scrapy.jpg": "/python_dev_portfolio/static/media/scrapy.3c29a07d947f8db1a36a.jpg",
     "static/media/Coffee.jpg": "/python_dev_portfolio/static/media/Coffee.5af58d8f3ee86f667025.jpg",
     "static/media/Restaurant.jpg": "/python_dev_portfolio/static/media/Restaurant.2cd7de7d8876babf4469.jpg",
@@ -38,10 +38,10 @@
     "static/media/modrzewkiego.jfif": "/python_dev_portfolio/static/media/modrzewkiego.94a74e12efc39e723cb2.jfif",
     "index.html": "/python_dev_portfolio/index.html",
     "main.2f8e4686.css.map": "/python_dev_portfolio/static/css/main.2f8e4686.css.map",
-    "main.c218c56b.js.map": "/python_dev_portfolio/static/js/main.c218c56b.js.map"
+    "main.5093a876.js.map": "/python_dev_portfolio/static/js/main.5093a876.js.map"
   },
   "entrypoints": [
     "static/css/main.2f8e4686.css",
-    "static/js/main.c218c56b.js"
+    "static/js/main.5093a876.js"
   ]
 }
